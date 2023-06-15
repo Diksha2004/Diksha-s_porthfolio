@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Source+Code+Pro:wght@300&family=Titillium+Web:wght@300&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+.sidebar{
+    /* color: #f9c802;  */
+    color: white;
+    background-color: rgb(48, 49, 67);
+    width:270px;
+    height:100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a{
+   text-decoration: none;
+   color: white;
+}
+
+.main{
+    /* background-color: rgb(0, 255, 21);  */
+    width:85vw;
+}
+
+.container{
+    display:flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(0, 62, 123);   */
+    height: 58vh;
+    width: 80vw;
+    margin: 105px auto;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 58vh;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Barlow Condensed', sans-serif;
+    /* font-family: 'Source Code Pro', monospace;  */
+}
+
+.hello{
+    font-size: 52px;
+    
+}
+
+.name{
+    font-size: 49px;
+    font-family: 'Barlow Condensed', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif;  */
+}
+
+.about{
+    font-size: 23px;
+    /* font-family: 'Barlow Condensed', sans-serif;  */ 
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.moreAbout{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.buttons{
+  margin-top: 34px;
+
+}
+
+.buttons button{
+    /* margin-top: 3px;  */
+    padding: 13px;
+    border-radius: 6px;
+    color: rgb(31, 32, 45);
+    background-color: #f9c802;
+    font-weight: 700;
+    font-size: medium;
+    margin-right: 10px;
+    cursor: pointer;
+    border-color: #f9c802 ;
+}
+
+.buttons button:hover{
+    /* background-color: rgb(31, 32, 45);  */
+    background-color: white;
+    color: rgb(31, 32, 45);
+}
